@@ -1,6 +1,6 @@
 # SimSiam-TF
 
-Minimal implementation of SimSiam ((Exploring Simple Siamese Representation Learning)[https://arxiv.org/abs/2011.10566] by Xinlei Chen & Kaiming He) in TensorFlow 2.
+Minimal implementation of SimSiam ([Exploring Simple Siamese Representation Learning](https://arxiv.org/abs/2011.10566) by Xinlei Chen & Kaiming He) in TensorFlow 2.
 
 The purpose of this repository is to demonstrate the workflow of SimSiam and NOT to implement it note to note and at the same time I will try not to miss out on the major bits discussed in the paper. For that matter, I'll be using the **Flowers dataset**.
 
