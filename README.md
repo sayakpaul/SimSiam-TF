@@ -3,13 +3,13 @@ Minimal implementation of [SimSiam](https://arxiv.org/abs/2011.10566) (by Xinlei
 
 The purpose of this repository is to demonstrate the workflow of SimSiam and NOT to implement it note to note and at the same time I will try not to miss out on the major bits discussed in the paper. For that matter, I'll be using the **Flowers dataset**. 
 
-Following depicts the workflow of SimSiam - 
+Following depicts the workflow of SimSiam (taken from the paper) - 
 
 <center>
 <img src="https://i.ibb.co/37pNQTP/image.png" width=550></img>
 </center>
 
-The authors have also provided PyTorch-like psuedocode in the paper (how cool!) - 
+The authors have also provided a PyTorch-like psuedocode in the paper (how cool!) - 
 
 ```python
 # f: backbone + projection mlp
@@ -29,7 +29,12 @@ def D(p, z): # negative cosine similarity
     return -(p*z).sum(dim=1).mean()
 ```
 
+The authors emphasize on the `stop_gradient` operation that helps the network to avoid collapsing solutions. Further details about this are available in the paper. 
+
 ## About the notebooks
+
+* `SimSiam_Pre_training.ipynb`: Pre-trains a ResNet50 using **SimSiam**. 
+* `SimSiam_Evaluation.ipynb`: Evaluates (linear evaluation) ResNet50 as pre-trained in `SimSiam_Pre_training.ipynb`. 
 
 ## Results
 
