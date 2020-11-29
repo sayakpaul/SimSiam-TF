@@ -44,8 +44,8 @@ The authors emphasize on the `stop_gradient` operation that helps the network to
     * [Projection](https://storage.googleapis.com/simsiam-tf/projection.h5)
     * [Prediction](https://storage.googleapis.com/simsiam-tf/prediction.h5)
 * 75 epochs
-    * [Projection]()
-    * [Prediction]()
+    * [Projection](https://storage.googleapis.com/simsiam-tf/projection_75.h5)
+    * [Prediction](https://storage.googleapis.com/simsiam-tf/prediction_75.h5)
     
 ## Acknowledgements
 
