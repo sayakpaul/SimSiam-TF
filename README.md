@@ -6,9 +6,9 @@ The purpose of this repository is to demonstrate the workflow of SimSiam and NOT
 
 Following depicts the workflow of SimSiam (taken from the paper) -
 
-<center>
+<p align="center">
 <img src="https://i.ibb.co/37pNQTP/image.png" width=550></img>
-</center>
+</p>
 
 The authors have also provided a PyTorch-like psuedocode in the paper (how cool!) -
 
