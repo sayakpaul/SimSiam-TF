@@ -44,6 +44,8 @@ The authors emphasize the `stop_gradient` operation that helps the network to av
 |       50 epochs       	|                  45.64%                  	|
 |       75 epochs       	|                  44.91%                  	|
 
+I think with further hyperparameter-tuning and regularization these scores can be improved. 
+
 **Supervised training** (results are taken from [here](https://github.com/ayulockin/SwAV-TF/blob/master/linear_evaluation/Linear_Evaluation_Fully_Supervised.ipynb) and [here](https://github.com/ayulockin/SwAV-TF/blob/master/Fully_Supervised_from_Scratch.ipynb)):
 
 |                 Training Type                 	| Validation Accuracy  (Linear Evaluation) 	|
@@ -62,7 +64,7 @@ We see that the loss gets plateaued after 35 epochs. We can experiment with the 
 
 * data augmentation pipeline
 * architectures of the two MLP heads
-* learning schedule used during pre-training
+* learning rate schedule used during pre-training
 
 and so on.
 
